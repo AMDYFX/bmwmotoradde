@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    /* margin-left: 50px;
+    margin-right: 50px; */
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    
+    
+}
+
+.menu-icon div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.menu-icon:hover{
+    color: blue;
+}
+
+.nav-icons{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+
+
+.nav-icons a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-icons a:hover{
+    color: blue;
+}
+.bmw-logo{
+    margin-left: 750px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.bmw-logo img{
+    height: 40px;
+    width: 40px;    
+}
+.bmw-logo h2{
+    font-weight: 900;
+}
+
+.main-menu{
+   padding: 1px; 
+
+}
+.main-menu a{
+    text-decoration: none;
+    gap: 20PX;
+    padding: 20px;
+}
+
+.quick-menu{
+    padding: 12px;
+}
+
+.quick-menu a{
+    text-decoration: none;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-overlay{
+    display: none;
+}
+
+.hero-page{
+    
+}
+
+.hero-slide{
+    
+}
+.hero-slide img{
+    width: 100vw;
+    object-fit: cover;
+    position: relative;
+    height: 80vh;
+}
+
+.hero-slide-text{
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    color: white;
+}
+
+.hero-slide h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.hero-slide-text p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cta-btn{
+    margin-top: 25px;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    max-width: 200px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cta-btn a{
+    text-decoration: none;
+    color: black;
+
+}
+.hero-page img{
+    background: linear-gradient(to right, blue,red);
+}
